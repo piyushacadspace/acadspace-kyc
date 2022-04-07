@@ -23,12 +23,16 @@ pageNavLinks.forEach((pageNavLink) => {
 
 });
 
-
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
+  }
 const submitFormData = async (e) => {
 	e.preventDefault()
 	console.log('fine')
 	let email = document.getElementById('emailInput').value
 	let name = document.getElementById('nameInput').value
+	name = capitalizeFirstLetter(name).split(' ')[0]
+
 	let mobile = document.getElementById('phoneInput').value
 
 	var url = new URL("https://script.google.com/macros/s/AKfycbz0FFzcL6akCp3lJyEpdWR73i16bi-03PneUiOVaIs_6TBWYU-ucFuYWlpPNchoD80QOQ/exec");
