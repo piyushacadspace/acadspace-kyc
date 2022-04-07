@@ -9395,6 +9395,12 @@ a.theme-link:hover {
     line-height: 1;
     font-weight: bold;
 }
+input:invalid:focus {
+    /* background-image: linear-gradient(pink, lightgreen);
+     */
+     border: red 1px ;
+     outline: red 1px;
+  }
 .zoom {
   
     transition: transform .2s; /* Animation */
