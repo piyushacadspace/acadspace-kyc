@@ -9463,6 +9463,8 @@ input:invalid:focus {
 }
 .reviews-section .source-profile {
     width: 60px;
+    border-radius: 50%;
+
 }
 .reviews-section .source-info {
     font-size: 0.875rem;
