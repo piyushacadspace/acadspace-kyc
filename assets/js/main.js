@@ -35,7 +35,7 @@ const submitFormData = async (e) => {
 
 	let mobile = document.getElementById('phoneInput').value
 
-	var url = new URL("https://script.google.com/macros/s/AKfycbz0FFzcL6akCp3lJyEpdWR73i16bi-03PneUiOVaIs_6TBWYU-ucFuYWlpPNchoD80QOQ/exec");
+	var url = new URL("https://script.google.com/macros/s/AKfycbzT7vDxsVgn8neg8nNnQXAHq7KApwjgHktqrkAHIztQGAMZC8rfjkVjFlMDEbQEd-ZfyQ/exec");
 
 	// If your expected result is "http://foo.bar/?x=1&y=2&x=42"
 	url.searchParams.append('email', email);
