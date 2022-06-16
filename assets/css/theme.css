@@ -34,8 +34,11 @@
 }
 @font-face {
     font-family: 'MyriadPro';
-    src: url(./../fonts/MyriadPro-Regular.otf), 
-            url(./../fonts/MyriadPro-Bold.otf);
+    src: url(./../fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family:'MyriadPro-bold' ;
+    src: url(./../fonts/MyriadPro-Bold.otf);
 }
 @media (prefers-reduced-motion: no-preference) {
     :root {
@@ -53,6 +56,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 hr {
+    font-family: 'MyriadPro-bold';
     margin: 1rem 0;
     color: inherit;
     background-color: currentColor;
@@ -63,6 +67,7 @@ hr:not([size]) {
     height: 1px;
 }
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: 'MyriadPro-bold';
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: 500;
@@ -9189,13 +9194,13 @@ textarea.form-control-lg {
  * Website: http://themes.3rdwavemedia.com/
  * Twitter: @3rdwave_themes
 */body {
-    font-family: 'Roboto',  sans-serif;
+    font-family: 'MyriadPro';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #4c527d;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    font-family: 'Quicksand',  sans-serif;
+    font-family: 'MyriadPro-bold';
     color: #1c1e2e;
     font-weight: bold;
 }
