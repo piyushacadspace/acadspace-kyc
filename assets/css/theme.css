@@ -34,11 +34,11 @@
 }
 @font-face {
     font-family: 'MyriadPro';
-    src: url(./../fonts/MyriadPro-Regular.otf);
+    src: url(../fonts/MyriadPro-Regular.otf);
 }
 @font-face {
     font-family:'MyriadPro-bold' ;
-    src: url(./../fonts/MyriadPro-Bold.otf);
+    src: url(../fonts/MyriadPro-Bold.otf);
 }
 @media (prefers-reduced-motion: no-preference) {
     :root {
